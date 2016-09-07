@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Xtras by raymondanthony</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Xtras</h1>
+      <h2 class="project-tagline">Xtras is a dead-simple general purpose CSS Topcoat with Themes and Injection Kit </h2>
+      <a href="https://github.com/raymondanthony/xtras" class="btn">View on GitHub</a>
+      <a href="https://github.com/raymondanthony/xtras/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/raymondanthony/xtras/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="xtras" class="anchor" href="#xtras" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="README.md">xtras</a>
+</h1>
+
+<h1></h1>
+
+<h4>
+<a id="xtras-is-a-dead-simple-general-purpose-css-topcoat-with-themes-and-injection-kit" class="anchor" href="#xtras-is-a-dead-simple-general-purpose-css-topcoat-with-themes-and-injection-kit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Xtras is a dead-simple general purpose CSS Topcoat with Themes and Injection Kit</h4>
+
+<p>Following in the vein of other injection projects strewn about across my ID's, this is a general varnishing. Whereas others have been effects based, this ones seeks to define through practical use, the logical boundaries between effects layer, color and fonting, sizing and structure. Its an in progress experiment. Whatever happens rayrc version is a working example of the original</p>
+
+<p>Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to RayAntony Blog GH Pages site.</p>
+
+<p><img src="3facesofray.png" alt='[](3facesofray.png "comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to RayAntony Blog GH Pages site.")' title="Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to RayAntony Blog GH Pages site."></p>
+
+<h3>
+<a id="usage-is-easy-just-pick-one-to-add-into-your-page" class="anchor" href="#usage-is-easy-just-pick-one-to-add-into-your-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage is easy just pick one to add into your page</h3>
+
+<p>Here's the basic <em>Xtras</em> version note that it does not inject other files and other than a loader there is no other .js so its completely free, easy, and safe to use. 
+<code>&lt;script src="//raymondanthony.github.io/xtras/xtras.js"&gt;&lt;/script&gt;</code></p>
+
+<p><a href="xtrasblu.js">xtrasblu</a> is nearly identical to vanilla xtras, with the primary differences being the opionated coloring whcich is a soft, agreeable tone with sparks of blue. It is for sprucing up my blog which has dead looking black links on black text which was well, too black. 
+<code>&lt;script src="//raymondanthony.github.io/xtras/xtrasblu.js"&gt;&lt;/script&gt;</code></p>
+
+<p>XtrasMedium is different and uses a special loader project and retrieves an alternate of the version of xtras found here as well as my own edit of skeleton and it imports medium css and js files too. So yeah, its different.
+<code>&lt;script src="//raymondanthony.github.io/xtras/xtrasmedium.js"&gt;&lt;/script&gt;</code></p>
+
+<p>All these are bookmark loadable just add 'javascript:' to the beginning of the raw source and save the full string into the URL. </p>
+
+<blockquote>
+<p>Note if it doesn't work file a bug with whoever built your browser they are all in their own way turning off address bar and bookmark loaded code to keep you supposedly safe from violently delightful animations and fonts <g-emoji alias="smile" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png">😄</g-emoji></p>
+</blockquote>
+
+<p>Latest vanilla Xtras <a href="xtras.js">Xtras</a></p>
+
+<div class="highlight highlight-source-js"><pre>(function(){var style=document.createElement('style'),styleContent=document.createTextNode('p,footer,header,a:link,article,soundmanager,video,input,post,h1,hr,h3{animation-delay:1.5s;animation:fly-in-from-right 0.93s 1s ease both;transform-origin:top right;}top-panels,h2,h4,h5,img,.bottom-panels,list-item,list,li,.list-group-item,ol,shop,dd,shop-button,shop-item,cart,ad,figure{animation-delay:1.8s;animation:fly-in-from-left 2.93s 1.2s ease both;-webkit-animation-delay:1.8s;-webkit-animation:fly-in-from-left 2.93s 1.5s ease both;transform-origin:top left;}@keyframes fly-in-from-top{from{transform:translateX(12rem) rotate(90deg);opacity:0;}}@keyframes fly-in-from-left{from{transform:translateY(12rem) rotate(180deg);opacity:0;}}@keyframes fly-in-from-right{from{transform:translateY(12rem) rotate(-360deg);opacity:0;}}frame,iframe,section{animation-delay:2s;animation:fly-in-from-left 2s 2s ease both;transform-origin:top left;}body{font-size:1.3em;line-height:1.5;font-weight:400;font-family:"Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}*{box-sizing:border-box;}script{display:none;}html{font-family:"Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:23px;line-height:33.813px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;overflow-x:hidden;overflow-y:scroll;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;-moz-box-sizing:border-box;color:rgba(0,0,0,0.88);}body{background-color:rgba(255,255,255,0.8);font-family:"Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:23px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:33.813px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-rendering:optimizelegibility;-moz-box-sizing:border-box;-moz-font-feature-settings:"liga";}.wrap{backface-visibility:hidden;font-family:"Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;letter-spacing:0px;position:relative;text-rendering:optimizelegibility;transition-delay:0s;transition-duration:0.3s;transition-property:transform;transition-timing-function:cubic-bezier(0.42,0,0.58,1);-moz-box-sizing:border-box;-moz-font-feature-settings:"liga";}font-family:"PT Sans",Helvetica,Arial,sans-serif;font-weight:400;margin-bottom:10px;margin-top:30px;text-rendering:optimizelegibility;-moz-box-sizing:border-box;}font-family:"PT Sans",Helvetica,Arial,sans-serif;font-weight:400;text-rendering:optimizelegibility;-moz-box-sizing:border-box;font-style:normal;letter-spacing:0px;}btn{opacity:0;-webkit-transition:opacity 0.1s ease-in-out;transition:opacity 0.1s ease-in-out;-webkit-transform:translateZ();}#prs,#prs a:active,.kl:active,.link,.q:active,.tbotu,.w,a,a.gb1,a.gb2,a.gb3,div a:link,a:before,a:link{background-color:transparent;cursor:pointer;white-space:nowrap;-moz-text-decoration-line:none;-moz-text-decoration-style:solid;text-decoration:none;list-style:none;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;font-style:normal;font-weight:400;letter-spacing:0;text-rendering:optimizelegibility;-moz-font-feature-settings:"liga";}a:hover{text-decoration:underline;}ol,ul,dt{font-family:"PT Sans",Helvetica,Arial,sans-serif;font-weight:400;text-rendering:optimizelegibility;}input,button{whitespace:nowrap;}');style.appendChild(styleContent);var mexMeHead=document.getElementsByTagName('head');mexMeHead[0].appendChild(style);})();</pre></div>
+
+<p><a href="https://raymondanthony.github.io/xtras/">site</a></p>
+
+<p><a href="//github.com/raymondanthony/xtras/README.md">Main README</a></p>
+
+<p>by <a href="@raymondanthony">@raymondanthony</a> <a href="@rayrc">@rayrc</a> <a href="@rayantony">@rayantony</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/raymondanthony/xtras">Xtras</a> is maintained by <a href="https://github.com/raymondanthony">raymondanthony</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
