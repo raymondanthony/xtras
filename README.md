@@ -4,7 +4,11 @@
 #### Xtras is a dead-simple general purpose CSS Topcoat with Themes and Injection Kit 
 
 
+Following in the vein of other injection projects strewn about across my ID's, this is a general varnishing. Whereas others have been effects based, this ones seeks to define through practical use, the logical boundaries between effects layer, color and fonting, sizing and structure. Its an in progress experiment. Whatever happens rayrc version is a working example of the original
+
+
 Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to rayantony blog gh pages site.
+
 
 ![[](3facesofray.png "comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to rayantony blog gh pages site.")](3facesofray.png "comparison of xtrasnew,original(themeless),and medinject (left to right) as appplied to rayantony blog gh pages site.")
 
