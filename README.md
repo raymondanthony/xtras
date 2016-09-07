@@ -15,7 +15,7 @@ Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as app
 <script src="//raymondanthony.github.io/xtras/xtrasblu.js"></script>
 
 
-Here's the basic version note that it does not inject other files and other than a loader there is no other .js so its completely free, easy, and safe to use. There are bookmark loadable just add 'javascript:' to the beginning and save the full string into the URL. Note if it doesn't work file a bug with whoever built your browser they are all in their own way turning off address bar and bookmark loaded code to keep you supposedly safe from violently delightful animations and fonts :smile:
+Here's the basic version note that it does not inject other files and other than a loader there is no other .js so its completely free, easy, and safe to use. XtrasMedium is different and uses a special loader project and retrieves an allternate of the version of xtras found here as well as my own edit of skeleton and it imports medium css and js files too. So yeah its different. All these are bookmark loadable just add 'javascript:' to the beginning and save the full string into the URL. Note if it doesn't work file a bug with whoever built your browser they are all in their own way turning off address bar and bookmark loaded code to keep you supposedly safe from violently delightful animations and fonts :smile:
 
 
 Latest colorless topcoat [Xtras](xtras.js)
