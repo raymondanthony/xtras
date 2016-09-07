@@ -4,7 +4,11 @@
 #### Xtras is a dead-simple general purpose CSS Topcoat with Themes and Injection Kit 
 
 
+Following in the vein of other injection projects strewn about across my ID's, this is a general varnishing. Whereas others have been effects based, this ones seeks to define through practical use, the logical boundaries between effects layer, color and fonting, sizing and structure. Its an in progress experiment. Whatever happens rayrc version is a working example of the original
+
+
 Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to rayantony blog gh pages site.
+
 
 ![[](3facesofray.png "comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as appplied to rayantony blog gh pages site.")](3facesofray.png "comparison of xtrasnew,original(themeless),and medinject (left to right) as appplied to rayantony blog gh pages site.")
 
@@ -12,15 +16,15 @@ Comparison from left to right of: XtrasBlu, without Xtras,and XtrasMedium as app
 ### Usage is easy just pick one to add into your page
 
 
-Here's the basic [Xtras](xtras.js)  version note that it does not inject other files and other than a loader there is no other .js so its completely free, easy, and safe to use. 
+Here's the basic *Xtras* version note that it does not inject other files and other than a loader there is no other .js so its completely free, easy, and safe to use. 
 ```<script src="//raymondanthony.github.io/xtras/xtras.js"></script>```
 
 
-[XtrasBlu](xtrasblu.js) is nearly identical to vanilla xtras, with the primary differences being the opionated coloring whcich is a soft, agreeable tone with sparks of blue. It is for sprucing up my blog which has dead looking black links on black text which was well, too black. 
+[xtrasblu](xtrasblu.js) is nearly identical to vanilla xtras, with the primary differences being the opionated coloring whcich is a soft, agreeable tone with sparks of blue. It is for sprucing up my blog which has dead looking black links on black text which was well, too black. 
 ```<script src="//raymondanthony.github.io/xtras/xtrasblu.js"></script>```
 
 
-[XtrasMedium](xtrasmedium.js)  is different and uses a special loader project and retrieves an alternate of the version of xtras found here as well as my own edit of skeleton and it imports medium css and js files too. So yeah, its different.
+XtrasMedium is different and uses a special loader project and retrieves an alternate of the version of xtras found here as well as my own edit of skeleton and it imports medium css and js files too. So yeah, its different.
 ```<script src="//raymondanthony.github.io/xtras/xtrasmedium.js"></script>```
 
 
@@ -39,5 +43,3 @@ Latest vanilla Xtras [Xtras](xtras.js)
 [Main README](//github.com/raymondanthony/xtras/README.md)
 
 by [@raymondanthony](@raymondanthony) [@rayrc](@rayrc) [@rayantony](@rayantony)
-
-
